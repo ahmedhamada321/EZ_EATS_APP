@@ -1,0 +1,46 @@
+/* Order Styles */
+.order-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-order {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .new-order .ant-input,
+  .new-order .ant-select {
+    margin-bottom: 10px;
+  }
+  
+  .orders {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+  }
+  
+  .order h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  .order p {
+    margin: 0 0 10px 0;
+  }
+  
+  .order .ant-select {
+    width: 100%;
+  }
+
+  
+  
